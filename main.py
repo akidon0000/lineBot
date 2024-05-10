@@ -24,8 +24,8 @@ userID_list = []#"U105f65be46024a1d2d18720b4a00fc59"
 #settings = []#二次元配列　["返答状態","地域","毎朝か雨か","時刻"] ["0","343","朝","6"]
 japanArea = {"兵庫":"332","徳島":"343"}
 
-channel_secret = "09d2874b5026d10099df6dfab0779680"
-channel_access_token = "aSdfRn+ksO/d/WJsHUT9Vr0pi4LbkuEkM9f0VHM586fAlooA/lL5eTP3iE8dKXJw3Txw4N2w1vmy2xD29K7lK39res1A8+IDeeFq+SNh807Afre0fDfdTnt1TPWBKbHyBZ12BlMy0R4OEZkduZ7JPgdB04t89/1O/w1cDnyilFU="
+channel_secret = ""
+channel_access_token = ""
 line_bot_api = LineBotApi(channel_access_token)
 
 if channel_secret is None:
